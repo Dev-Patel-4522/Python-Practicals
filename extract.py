@@ -1,7 +1,9 @@
 from zipfile import ZipFile
 
 # specifying the zip file name
-file_name = "D:\photo8.zip"
+
+#file location with exetension
+file_name = "" 
 
 # opening the zip file in READ mode
 with ZipFile(file_name, 'r') as zip:
